@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Financial Analyst Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="nav.js"></script>
+    <div class="navbar">
+      <nav id="navbar" class="timeline-navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="work.html">Work Experiences</a>
+        <a href="internships.html">Internships</a>
+        <a href="Resume.docx" download="Resume.docx">Download</a>
+        <a href="mailto:adamhtheis@gmail.com">Email Me</a>
+      </nav>
+    </div>
+    <main>
+      <section id="home">
+        <h2>Adam Theis!</h2>
+        <p>I am a recent university graduate. I specialize in financial analysis
+          and portfolio optimization strategies. I am passionate about leaving
+          the world better than I found it.</p>
+      </section>
+      <section id="about-me">
+        <h2>Education</h2>
+        <p>I received two degrees, both from the University of Missouri, a
+          Bachelors of Science in Business Administration: Finance and Banking
+          and a Bachelors of Science in Economics from the University Missouri -
+          Columbia colleges of Business and Arts & Sciences.</p>
+        <p>I am a lifelong learner. Even though my college education has
+          completed, I am looking for additional professional development
+          opportunities!</p>
+        <p>I am a highly motivated and results-oriented individual. I am a team
+          player and I am always willing to dig a bit further to reveal new
+          truths.</p>
+      </section>
+
+      <section id="my-work">
+        <h2>My Work</h2>
+        <p>I have a proven track record of success in the financial industry. I
+          have helped clients achieve their financial goals by providing sound
+          investment advice and managing their portfolios effectively.</p>
+        <p>I have worked as an accounting intern for Spirit of '76 fireworks, a
+          leading fireworks manufacturer and distributor. I have experience in a
+          variety of data sources. Experiences range from report building to
+          asset pricing.</p>
+        <p>I am also a published author and I have written several articles on
+          financial topics. I am a frequent speaker at industry events and I am
+          always willing to share my knowledge with others.</p>
+      </section>
+      <section id="contact-me">
+        <h2>Contact Me</h2>
+        <p>If you would like to learn more about my services, please feel free
+          to <a href="contact.html">contact me</a></p>
+      </section>
+
+    </main>
+    <footer>
+    
+      <div>
+        <img src="Images/headshot.jpg" width="100" height="100" class="footimage" alt="foot-image">
+      </div>
+      <div>
+        
+        <form id="contact-form" class="horizontal-form">
+          <div class="form-group">
+            <label for="name">Contact me!</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+          </div>
+    
+          <div class="form-group">
+           <label for="email">Email</label>
+           <input type="email" id="email" name="email" placeholder="Email" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="message">Message</label>
+            <input id="message" name="message" placeholder="Message" required>
+          </div>
+    
+          <input type="button" value="Save" onclick="saveFormData()">
+          </form>
+        </div>
+      </footer>
+  </body>
+</html>
